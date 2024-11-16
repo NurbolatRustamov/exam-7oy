@@ -1,0 +1,43 @@
+.map {
+  width: 1296px;
+  height: 450px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.res-map {
+  background-color: #fff;
+}
+.big-map {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+@media (max-width: 954px) {
+  .big-map {
+    padding-top: 750px;
+  }
+}
+@media (max-width: 514px) {
+  .big-map {
+    padding-top: 840px;
+  }
+}
+
+.inputs-box {
+  width: 1255px;
+  max-width: 100%;
+  height: auto;
+  background-color: #f9f9f9;
+}
+.res-inp {
+  display: flex;
+  justify-content: center;
+}
+/* .input-box form {
+ 
+  
+} */
+
+.torm {
+  padding: 30px;
+}

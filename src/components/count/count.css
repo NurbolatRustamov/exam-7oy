@@ -1,0 +1,128 @@
+.transport-onee h2 {
+  margin-bottom: 20px;
+  line-height: 36px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+.transport-onee h4 {
+  font-size: 15px;
+  line-height: 30px;
+  color: #afafaf;
+  padding-bottom: 40px;
+}
+.res-transport {
+  display: flex;
+  justify-content: center;
+}
+.transport-twoo {
+  padding-bottom: 40px;
+  display: flex;
+  gap: 30px;
+}
+.transport-twoo img {
+  border-radius: 20px;
+}
+.fatherr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.child11 p {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.child11 h3 {
+  font-size: 15px;
+  color: #afafaf;
+}
+.child22 button {
+  padding: 12px 30px;
+  background-color: #22b3c1;
+  color: #fff;
+  border: 2px solid #22b3c1;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.child22 button:hover {
+  background-color: #fff;
+  color: #22b3c1;
+  transition: all 0.6s ease;
+}
+.transport-two-twoo h3 {
+  font-size: 15px;
+  line-height: 30px;
+  color: #afafaf;
+}
+.info {
+  display: flex;
+  gap: 149px;
+  padding-bottom: 20px;
+}
+.e {
+  color: #afafaf;
+  font-size: 14px;
+}
+.br {
+  display: none;
+}
+.n a {
+  font-size: 14px;
+  color: #22b3c1;
+  font-weight: 500;
+}
+.fr {
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: #afafaf;
+}
+.hr {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  background-color: #afafaf;
+}
+@media (max-width: 1080px) {
+  .transport-two-twoo h3 {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1002px) {
+  .transport-twoo {
+    display: grid;
+  }
+  .fatherr {
+    justify-content: start;
+  }
+}
+@media (max-width: 634px) {
+  .br {
+    display: block;
+  }
+  .fatherr {
+    display: block;
+  }
+  .info {
+    gap: 37px;
+  }
+}
+
+@media (max-width: 527px) {
+  .transport-twoo img {
+    width: 315px;
+  }
+  .transport-twoo {
+    padding-left: 10px;
+  }
+  .transport-onee h2 {
+    padding-left: 10px;
+  }
+  .transport-onee h4 {
+    padding-left: 10px;
+  }
+}

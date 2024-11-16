@@ -1,0 +1,100 @@
+.transport-one h2 {
+  padding-top: 100px;
+  margin-bottom: 20px;
+  line-height: 36px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+.transport-one h4 {
+  font-size: 15px;
+  line-height: 30px;
+  color: #afafaf;
+  padding-bottom: 40px;
+}
+.transport-two {
+  padding-bottom: 40px;
+  display: flex;
+  gap: 30px;
+}
+.transport-two img {
+  border-radius: 20px;
+}
+.father {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.b {
+  display: none;
+}
+.child1 p {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.child1 h3 {
+  font-size: 15px;
+  color: #afafaf;
+}
+.child2 button {
+  padding: 12px 30px;
+  background-color: #22b3c1;
+  color: #fff;
+  border: 2px solid #22b3c1;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.child2 button:hover {
+  background-color: #fff;
+  color: #22b3c1;
+  transition: all 0.6s ease;
+}
+.transport-two-two h3 {
+  font-size: 15px;
+  line-height: 30px;
+  color: #afafaf;
+}
+
+@media (max-width: 1080px) {
+  .transport-two-two h3 {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1002px) {
+  .transport-two {
+    display: grid;
+  }
+  .father {
+    justify-content: start;
+  }
+}
+@media (max-width: 634px) {
+  .b {
+    display: block;
+  }
+  .father {
+    display: block;
+  }
+}
+@media (max-width: 527px) {
+  .transport-two img {
+    width: 315px;
+  }
+  .transport-two {
+    padding-left: 10px;
+  }
+  .transport-one h2 {
+    padding-left: 10px;
+  }
+  .transport-one h4 {
+    padding-left: 10px;
+  }
+}
+.lenght {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 70px;
+}

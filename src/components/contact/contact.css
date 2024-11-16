@@ -1,0 +1,105 @@
+.contact-bg {
+  background-image: url(https://effervescent-valkyrie-b42824.netlify.app/assets/images/heading-bg-02.jpg);
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.contact-btn {
+  background-color: #fff;
+  padding: 12px 30px;
+  border: 2px solid #fff;
+  color: #22b3c1;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+
+.contact-btn a {
+  color: #22b3c1;
+}
+.contact-btn:hover {
+  background-color: #22b3c1;
+  transition: all 0.6s ease;
+}
+.contact-btn:hover a {
+  color: #fff;
+  transition: all 0.6s ease;
+}
+.contact-bg p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  padding-top: 200px;
+  padding-bottom: 40px;
+}
+.contact-bg h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 30px;
+}
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.phone,
+.email,
+.ofice {
+  width: 400px;
+  height: 250px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 23px;
+}
+.contact-info h3 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.contact-info h4 {
+  font-size: 15px;
+  color: #22b3c1;
+}
+.contact-info i {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 60px;
+  color: #22b3c1;
+}
+@media (max-width: 1278px) {
+  .phone,
+  .email,
+  .ofice {
+    width: 300px;
+    height: 233px;
+  }
+}
+@media (max-width: 954px) {
+  .contact-info {
+    display: grid;
+  }
+  .phone,
+  .email,
+  .ofice {
+    width: 463px;
+    height: 257px;
+  }
+}
+@media (max-width: 482px) {
+  .phone,
+  .email,
+  .ofice {
+    width: 354px;
+  }
+}
+@media (max-width: 386px) {
+  .phone,
+  .email,
+  .ofice {
+    width: 303px;
+  }
+}

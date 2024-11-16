@@ -1,0 +1,167 @@
+.city {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 100px;
+  text-align: center;
+  color: #fff;
+}
+.ant-h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+.ant-btn {
+  font-size: 14px;
+  color: #22b3c1;
+  background-color: transparent;
+  border: 1px solid #22b3c1;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  background-color: #22b3c1;
+  color: #fff;
+  display: flex;
+  margin: 0 auto;
+}
+/* .ant-box {
+   position: absolute;
+  bottom: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  z-index: 1000;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 923px;
+  height: 121px;
+  border-radius: 61px;
+  background-color: #fff;
+  align-items: center;
+} */
+.ant-box {
+  top: 100px;
+  position: relative; /* absolute emas, chunki bu ustma-ust chiqish muammosini kamaytiradi */
+  bottom: auto; /* quyi joylashuvni o'chirish */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  z-index: 1000;
+  margin-top: 20px; /* margin qiymatini kamaytirish */
+  display: flex;
+  flex-wrap: wrap; /* Elementlarni o'z-o'zidan pastga tushirish uchun */
+  justify-content: space-around;
+  align-items: center;
+  height: auto; /* Dinamik balandlik */
+  background-color: #fff;
+}
+.ant-box i {
+  font-size: 50px;
+  color: #22b3c1;
+}
+.ant-box p {
+  font-size: 15px;
+  color: #afafaf;
+}
+.ant-box h3 {
+  font-size: 20px;
+  color: #22b3c1;
+}
+
+.ant-box div {
+  gap: 15px;
+  display: flex;
+}
+.ant-box div div {
+  display: block;
+}
+
+.ant-box button {
+  cursor: pointer;
+  padding: 12px 30px;
+  background-color: #22b3c1;
+  border: 2px solid #22b3c1;
+  color: #fff;
+  border-radius: 25px;
+  font-size: 15px;
+}
+.ant-box button:hover {
+  background-color: #fff;
+  color: #22b3c1;
+  transition: all 0.6s ease;
+}
+@media (max-width: 950px) {
+  .ant-box {
+    width: 90%; /* Moslashuvchan kenglik */
+    margin-top: 40px; /* Moslashuvchan joylashuv */
+  }
+}
+
+@media (max-width: 734px) {
+  .ant-box {
+    top: 50px;
+    display: grid;
+    grid-template-columns: 1fr; /* Bir ustun format */
+    height: auto;
+    width: 90%;
+    margin-top: 20px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  .ant-box {
+    width: 100%; /* Kichik ekran uchun to'liq kenglik */
+    padding: 10px;
+  }
+
+  .ant-btn {
+    margin-bottom: 20px;
+  }
+}
+/* @media (max-width: 950px) {
+  .ant-box {
+    width: 714px;
+  }
+}
+@media (max-width: 734px) {
+  .ant-box {
+    margin-top: 60px;
+    display: grid;
+    height: 443px;
+    width: 368px;
+  }
+
+}
+@media (max-width: 370px) {
+  .ant-box {
+    height: 337px;
+        margin-top: 65px;
+        width: 245px;
+  }
+  .ant-btn{
+    margin-bottom: 40px;
+  }
+} */
